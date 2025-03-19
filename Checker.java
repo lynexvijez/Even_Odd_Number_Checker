@@ -27,6 +27,7 @@ public class Checker {
                 scanner.next();                               // we use this to clear the buffer... always remember!!!
             }
         }
+        scanner.close();
     }
 }
 /*this is a simple program that checks if a number is even or odd. if the user enters a non-integer value,
